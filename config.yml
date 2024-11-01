@@ -1,0 +1,3 @@
+editor: nvim
+git:
+  branchLogCmd: 'git log --all --decorate --pretty=format:"%C(brightred)%h %C(brightyellow)%cn%C(reset)%x09%ad %x2D%C(brightblue)%d%C(reset) %s" --color=always  --date=human --graph {{branchName}} --'
